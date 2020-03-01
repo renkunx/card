@@ -4,7 +4,7 @@
   $red: #e21836;
   $offset: 0;
   $size: 40px;
-  width: $size + 20;
+  width: $size + 26;
   display: block;
   height: $size;
   background: $red;
@@ -32,21 +32,21 @@
 
   &:before {
     content: " ";
-    width: $size - 12;
+    width: $size - 10;
     background: #00447c;
-    left: 14px;
+    left: 22px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
 
   &:after {
     content: "银联";
-    width: $size - 14;
+    width: $size - 18;
     background: #007b84;
-    left: 34px;
+    left: 44px;
     border-radius: 5px;
     font-size: 10px;
-    line-height: 54px;
-    text-indent: -17px;
+    line-height: 57px;
+    text-indent: -22px;
   }
 }
