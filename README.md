@@ -4,8 +4,8 @@
 
 Card will take *any* credit card form and make it the best part of the checkout process (without you changing anything). Everything is created with pure CSS, HTML, and Javascript — no images required.
 
-![card](http://i.imgur.com/qG3TenO.gif)
-
+![visa](http://i.imgur.com/qG3TenO.gif)
+![unionpay](https://cdn.pusi.site/unionpay.gif)
 ## Usage (without jQuery)
 
 To use, you'll need to include the Card JavaScript files into your HTML, no CSS link is necessary as the JavaScript file does this for you. You can find the necessary file at `/dist/card.js` and include it in your HTML like so.
