@@ -3,7 +3,7 @@ require '../scss/card.scss'
 QJ = require 'qj'
 payment = require 'payment'
 extend = require 'node.extend'
-
+pinyin =  require 'pinyin'
 class Card
   initializedDataAttr: "data-jp-card-initialized"
   cardTemplate: '' +
@@ -179,6 +179,11 @@ class Card
         fill: false
         filters: @validToggler('cardHolderName')
         join: ' '
+        computed: (text) ->
+          if /[\u4E00-\u9FFF]+/.test(text)
+            pinyin(text,{style: pinyin.STYLE_NORMAL}).join(' ').toUpperCase()
+          else 
+            text
 
   handleInitialPlaceholders: ->
     for name, selector of @options.formSelectors
@@ -277,7 +282,8 @@ class Card
           outVal = val + outDefaults[i].substring(val.length)
         else
           outVal = val or outDefaults[i]
-
+        if (typeof(opts.computed) == "function")
+          outVal = opts.computed(val) or outDefaults[i]
         outEl.textContent = outVal
 
     el

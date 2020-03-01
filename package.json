@@ -52,7 +52,8 @@
   },
   "dependencies": {
     "node.extend": "~1.1.3",
-    "qj": "^2.0.0",
-    "payment": "^2.3.0"
+    "payment": "^2.3.0",
+    "pinyin": "^2.9.0",
+    "qj": "^2.0.0"
   }
 }
