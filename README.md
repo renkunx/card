@@ -3,9 +3,7 @@
 ### A better credit card form in one line of code
 
 Card will take *any* credit card form and make it the best part of the checkout process (without you changing anything). Everything is created with pure CSS, HTML, and Javascript — no images required.
-
-![visa](http://i.imgur.com/qG3TenO.gif)
-![unionpay](https://cdn.pusi.site/unionpay.gif)
+![unionpay](https://7wx3bq.ch.files.1drv.com/y4mDirCZyFYkI5fwTpUcYQTwRkOQtpBiBVTsRCxme9FxBNP9YO7QV0BXaA4juWhrXSyumMaPJgu4AK2oD7hQtvXOFi7HJo4KyHKnYKP4dltR4nzMbT6HdWg2qqb5KOCvUcc2X5X6tQbxT5WiM8rLCmoGm734YIWK5merIr7J02jvG8GZPiSeCRIybnEyYjWTlVwfEOKnHht6t53RLi1hqDveg/unionpay.gif?download&psid=1)
 ## Usage (without jQuery)
 
 To use, you'll need to include the Card JavaScript files into your HTML, no CSS link is necessary as the JavaScript file does this for you. You can find the necessary file at `/dist/card.js` and include it in your HTML like so.
@@ -69,7 +67,7 @@ If you're using bower, you can install card.js with:
 
 If you're using npm, you can install card.js with:
 
-    npm install --save card
+    npm install card-form
 
 	var $ = require("jquery");
     // The current card.js code does not explicitly require jQuery, but instead uses the global, so this line is needed.

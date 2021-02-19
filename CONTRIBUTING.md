@@ -14,7 +14,7 @@ Here's how you can get started developing locally:
     $ cd card
     $ git submodule init && git submodule update
     $ npm install
-    $ npm start
+    $ npm run development
 
 Now, if you go to localhost:8080/example in your browser, you should see the demo page.
 
