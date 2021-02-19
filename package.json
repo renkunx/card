@@ -43,11 +43,11 @@
     "replace": "^0.3.0",
     "rimraf": "^2.5.4",
     "run-sequence": "~1.2.1",
-    "sass-loader": "7.3.1",
+    "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "underscore": "^1.8.3",
     "vinyl-source-stream": "^1.1.0",
-    "webpack": "^1.13.1",
+    "webpack": "1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
